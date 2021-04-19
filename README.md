@@ -24,9 +24,6 @@ Currently, this script only supports the CAKE syrup pool and the DFT/BNB farm in
 
 Replace the value of `wallet_addr` with your actual wallet address.
 
-A bscan.com API key is not required, but if you want to run this script very frequently (especially when testing), I would advise signing up for free
-and registering a free API key in order to avoid rate limits.  After doing this, replace the value of `bscan_api_key` with your actual bscan.com API key.
-
 ```
 git clone https://github.com/phx/pancakeswap-quickstats
 cd pancakeswap-quickstats
