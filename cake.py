@@ -11,7 +11,7 @@ from web3 import Web3, HTTPProvider, IPCProvider
 # logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 wallet_addr = '0xYOUR_WALLET_ADDRESS_HERE'
-bscan_api_key = 'YOUR_BSCAN_API_KEY_HERE'
+
 big = '===================================================='
 div = '----------------------------------------------------'
 
