@@ -4,7 +4,11 @@ This is a set of scripts that I wrote over the course of a weekend which will re
 
 I was thinking about tweaking a local version of it to use BetterTouchTool in order to display some stats on my Macbook's Touch Bar,
 but I ended up writing a small shell script plugin for [xbar](https://github.com/matryer/xbar) that parses the output of [`cake.py`](./cake.py)
-and displays the output in my menu bar like `CAKE: [POOL YIELD] + [FARM YIELD] = [TOTAL YIELD] ([TOTAL PENDING USD])`.
+and displays the output in my menu bar like so:
+
+`CAKE: [POOL YIELD] + [FARM YIELD] = [TOTAL YIELD] ([TOTAL PENDING USD])`
+
+This is one of the great benefits of being able to grab this data from the command line.
 
 After searching high and low for a PancakeSwap command line tool, I was never satisfied with the results, so these two scripts are what I came up with.
 
