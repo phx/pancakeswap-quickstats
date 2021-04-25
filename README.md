@@ -12,6 +12,11 @@ This is one of the great benefits of being able to grab this data from the comma
 
 After searching high and low for a PancakeSwap command line tool, I was never satisfied with the results, so these two scripts are what I came up with.
 
+## UPDATE (2021-04-25)
+[`cake.py`](./cake.py) may need to be updated to support the new LP token contracts after the recent PancakeSwap LP v2 token migration.
+It was a fun project to work on that allowed me to interact with smart contracts and query them directly, but [`watch.py`](./watch.py) is more
+reliable in the long run and automatically provides data for multiple farms and pools without having to manually program them into the script.
+
 ## cake.py
 
 I was looking for resources, and [`cake.py`](./cake.py) was the first script that I created. It interacts directly with smart contracts on the
@@ -33,8 +38,8 @@ Currently, this script only supports the CAKE syrup pool and the DFT/BNB farm in
 
 ## watch.py
 
-This is a script that only relies on the yieldwatch API.  It's not as trusty as [`cake.py`](./cake.py) because of its reliance on the yieldwatch API,
-however, it does offer a bit more informative data, and this one is scripted in a way that I think it should be able to work with multiple farms
+This is a script that only relies on the yieldwatch API.
+It offers a bit more informative data, and this one is scripted in a way that I think it should be able to work with multiple farms
 and pools straight out of the gate, but feel free to customize as necessary.
 
 That being said, if you are just looking for results in the browser, [yieldwatch.net](https://yieldwatch.net) is probably the best resource.
